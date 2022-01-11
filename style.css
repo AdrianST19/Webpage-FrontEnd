@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color:#fef8f5;
+}
+
+body{
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+section div  {
+  padding:1px;
+}
+main {
+	line-height: 20px;
+}

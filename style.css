@@ -9,9 +9,168 @@ body{
   font-family: sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 section div  {
   padding:1px;
 }
 main {
 	line-height: 20px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+a:link, a:visited {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+}
+/* First page */
+.button1{
+  position: absolute;
+  top: 50px;
+  right: 770px;
+  background-color: #f4886e;
+}
+.button2{
+  position: absolute;
+  top: 50px;
+  right: 600px;
+  background-color: #f58d71;
+}
+.button3{
+  position: absolute;
+  top: 50px;
+  right: 470px;
+  background-color: #f59174;
+}
+.button4{
+  position: absolute;
+  top: 57px;
+  right: 260px;
+  background-color: #ed4d47;
+}
+.button5{
+  position: absolute;
+  bottom: 615px;
+  left: 260px;
+  background-color: #ed4d47;
+}
+/* The about section */
+.about {
+  position: absolute;
+  top: 600px;
+  left: 240px;
+  color: black;
+  align-items: left;
+  line-height: 26pt;
+}
+.about2 {
+  position: absolute;
+  top: 940px;
+  left: 280px;
+  color: black;
+  background-color: #fdede8;
+  align-items: left;
+  line-height: 20pt;
+}
+/* How to section */
+.howto {
+  position: absolute;
+  top: 140px;
+  right: 240px;
+  color: black;
+  align-items: left;
+  line-height: 26pt;
+}
+/* Contact section */
+.text1{
+  position: absolute;
+  top: 270px;
+  left: 260px;
+  color: white;
+  background-color: #0f264c;
+  align-items: left;
+  line-height: 26pt;
+}
+.button6{
+  position: absolute;
+  bottom: 70px;
+  right: 600px;
+  background-color: #0f264c;
+}
+.button7{
+  position: absolute;
+  bottom: 70px;
+  right: 450px;
+  background-color: #0f264c;
+}
+.button8{
+  position: absolute;
+  bottom: 70px;
+  right: 320px;
+  background-color: #0f264c;
+}
+.button9{
+  position: absolute;
+  bottom: 338px;
+  right: 630px;
+  background-color: #ed4d47;
+}
+.contacttxt{
+  position: absolute;
+  bottom: 610px;
+  right: 685px;
+  background-color: white;
+}
+.textbox{
+  position: absolute;
+  bottom: 550px;
+  right: 420px;
+}
+/* Footer section */
+.bottom-left {
+  position: absolute;
+  top: 40px;
+  left: 220px;
+  color: black;
+}
+
+.bottom-right {
+  position: absolute;
+  top: 15px;
+  right: 300px;
+}
+
+/* Moving pictures */
+.div1 {
+  top: 500px;
+  right: 2800px;
+  background-color: transparent;
+  position: relative;
+  animation: mymove 5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards; 
+}
+@keyframes mymove {
+  from {left: 600px;}
+  to {left: 450px;}
+}
+
+.div2 {
+  top: 500px;
+  right: 2800px;
+  background-color: transparent;
+  position: relative;
+  animation: mymove 5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards; 
+}
+@keyframes mymove2 {
+  from {left: 0px;}
+  to {left: 450px;}
 }
